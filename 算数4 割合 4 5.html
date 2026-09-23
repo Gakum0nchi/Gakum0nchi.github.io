@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>授業づくりシート 算数4 割合 第4時/全5時_2026年09月</title>
+    <style>
+        /* 全体スタイル */
+        body {
+            font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        h1, h2, h3 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 8px;
+            margin-top: 30px;
+        }
+
+        .section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        /* 属性・メタデータ */
+        .meta-info p {
+            margin: 6px 0;
+        }
+        .meta-info strong {
+            color: #34495e;
+        }
+
+        /* テーブルスタイル */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            background-color: #fff;
+            font-size: 0.95rem;
+        }
+
+        th, td {
+            border: 1px solid #bdc3c7;
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            background-color: #ecf0f1;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+
+        /* 授業の流れ用テキストカラー表示 */
+        .q-main { color: #d32f2f; font-weight: bold; } /* 赤色 Q+ */
+        .q-sub { color: #f39c12; font-weight: bold; }  /* 黄色 Q- */
+        .q-summary { color: #1976d2; font-weight: bold; } /* 青色 Q= */
+        .q-normal { color: #333333; } /* 黒色 */
+
+        .a-plus { color: #2e7d32; } /* 正解の反応 A+ */
+        .a-minus { color: #c62828; } /* ミスリード A- */
+
+        .f-plus { color: #2e7d32; font-weight: bold; } /* 称賛 F+ */
+        .f-minus { color: #d84315; } /* 修正手立て F- */
+
+        /* 黒板スタイル（板書計画） */
+        .blackboard-container {
+            background-color: #0b4128;
+            border: 12px solid #8d5524;
+            border-radius: 4px;
+            padding: 15px;
+            color: #ffffff;
+            min-height: 300px;
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+            display: flex;
+            gap: 15px;
+        }
+
+        .board-column {
+            flex: 1;
+            border-right: 1px dashed rgba(255,255,255,0.4);
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+
+        .board-column:last-child {
+            border-right: none;
+        }
+
+        /* 板書内装飾 */
+        .board-text-yellow {
+            color: #ffeb3b;
+            font-weight: bold;
+        }
+
+        .board-meate {
+            border: 2px solid #f44336;
+            color: #ffffff;
+            padding: 5px;
+            margin: 8px 0;
+            display: block;
+            border-radius: 4px;
+        }
+        .board-meate-title {
+            color: #f44336;
+            font-weight: bold;
+        }
+
+        .board-summary {
+            border: 2px solid #ffeb3b;
+            color: #2196f3;
+            background-color: rgba(255,255,255,0.9);
+            padding: 5px;
+            margin: 8px 0;
+            display: block;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .board-image-placeholder {
+            background-color: rgba(255,255,255,0.2);
+            border: 2px dashed #fff;
+            padding: 10px;
+            text-align: center;
+            margin: 8px 0;
+            border-radius: 4px;
+        }
+
+        .board-image-placeholder img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* 掲示物・提示資料リスト */
+        .material-list {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        .material-item-img {
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+
+        .material-item-img img {
+            max-width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>算数4 割合 第4時/全5時</h1>
+    <p>#算数4 #2026 #09</p>
+
+    <div class="section">
+        <h1>① 単元指導案</h1>
+        <div class="meta-info">
+            <p><strong>■単元名：</strong> 割合</p>
+            <p><strong>■単元のねらい（主眼）：</strong> 2つの数量の関係に着目し、何倍にあたるかを求めることや、もとにする量と何倍にあたるかから比べる量を求めることを通して、倍関係や割合の理解を深め、日常生活で問題解決に活用できるようにする。</p>
+            <p><strong>■評価基準：</strong></p>
+            <ul>
+                <li><strong>知識・技能：</strong> 2つの数量の関係を図や式に表し、何倍にあたるかや、求めたい数量を正確に計算して求めることができる。</li>
+                <li><strong>思考・判断・表現：</strong> 図（関係図・線分図）を活用して数量の倍関係に着目し、順に捉えたりまとめて捉えたりして、筋道立てて考え説明している。</li>
+                <li><strong>主体的に学習に取り組む態度：</strong> 図を用いて数量関係を可視化することの便利さに気づき、進んで倍関係の問題解決に活用しようとしている。</li>
+            </ul>
+        </div>
+
+        <h3>■単元の指導計画（全5時）</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 15%;">時数</th>
+                    <th style="width: 10%;">ページ</th>
+                    <th style="width: 25%;">目標</th>
+                    <th style="width: 25%;">学習内容</th>
+                    <th style="width: 25%;">主な評価基準</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- 2行目：前々時以上の内容のまとめ -->
+                <tr>
+                    <td>第1〜第2時</td>
+                    <td>P.130〜P.132</td>
+                    <td>2つの数量を比較し、一方の数量が他方の数量の何倍にあたるかを求める方法を理解する。</td>
+                    <td>何倍にあたるかの計算、関係図や線分図を用いた数量の整理</td>
+                    <td>(知技)何倍にあたるかを求める計算ができる。<br>(思判表)図を用いて何倍になるかを考えている。</td>
+                </tr>
+                <!-- 3行目：前時の内容 -->
+                <tr>
+                    <td>第3時</td>
+                    <td>P.133</td>
+                    <td>基準となる量と倍の関係から、比べる量を求める計算の仕方を理解する。</td>
+                    <td>基準量×倍＝比較量の問題解決、線分図を用いた割合の表し方</td>
+                    <td>(知技)もとにする量と倍から比べる量を正しく求められる。</td>
+                </tr>
+                <!-- 4行目：本時の内容 -->
+                <tr>
+                    <td>第4時（本時）</td>
+                    <td>P.134</td>
+                    <td>3つの数量の関係に着目し、順に考えたりまとめて考えたりして求める方法を考える。</td>
+                    <td>図を使った3つの数量の関係の解明、順次処理および一括処理（積の活用）による問題解決</td>
+                    <td>(思判表)図を活用して3つの数量の倍関係を捉え、順に考える方法やまとめて考える方法を説明している。</td>
+                </tr>
+                <!-- 5行目：後時の内容か後々時以上の内容のまとめ -->
+                <tr>
+                    <td>第5時</td>
+                    <td>P.135</td>
+                    <td>単元の学習内容の理解を確認し、基本的な問題や適用問題を解決して定着を図る。</td>
+                    <td>たしかめよう・ふりかえろう（割合に関する統合的理解と練習問題）</td>
+                    <td>(知技)割合に関する問題を正しく解決できる。<br>(態度)割合の学習を振り返り生活に活かそうとしている。</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section">
+        <h1>② 本時指導案</h1>
+        <div class="meta-info">
+            <p><strong>■本時のねらい：</strong> 3つの数量（テレビ塔、百貨店、学校）の倍関係に着目し、図を活用しながら順に求める方法やまとめて求める方法を考え、説明できるようにする。</p>
+            <p><strong>■本時での最後の子どもの姿：</strong> 「図を使うと関係がよくわかる。順に割っていく方法だけでなく、3×2で6倍とまとめてから割る方法もあるんだな」と納得し、他の問題でも両方の考え方を使って解くことができる。</p>
+            <p><strong>■本時のめあて：</strong> 図を使って学校の高さのもとめ方を考えよう。</p>
+            <p><strong>■本時のまとめ：</strong> 順に考えたり、何倍かをまとめて考えたりしてもとめることができる。</p>
+        </div>
+
+        <h3>■授業の流れ</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 10%;">フェーズ</th>
+                    <th style="width: 20%;">フロー（目安時間）</th>
+                    <th style="width: 25%;">クエッション（30字以内）</th>
+                    <th style="width: 20%;">アンサー</th>
+                    <th style="width: 25%;">フィードバック</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- 導入（P1） -->
+                <tr>
+                    <td rowspan="3">導入（P1）</td>
+                    <td>F1:既習のふりかえり（2分）</td>
+                    <td><span class="q-normal">基準の何倍かを求めるときはどんな計算を使いましたか？</span></td>
+                    <td>
+                        <span class="a-plus">(A+) わり算を使いました。</span><br>
+                        <span class="a-plus">(A+) 比較量 ÷ 基準量 です。</span><br>
+                        <span class="a-plus">(A+) 図を描いて○倍と表しました。</span><br>
+                        <span class="a-minus">(A-) かけ算だけしか使えません。</span>
+                    </td>
+                    <td>
+                        <span class="f-plus">(F+) 既習のわり算や図の使い方がしっかり頭に入っていますね！</span><br>
+                        <span class="f-minus">(F-) 「何倍か」を求めるときや逆算するときにわり算も使いましたね。</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>F2:主問題（2分）</td>
+                    <td><span class="q-main">テレビ塔90mから学校の高さをどうやって求めますか？</span></td>
+                    <td>
+                        <span class="a-plus">(A+) 百貨店を挟んで順に割り算する。</span><br>
+                        <span class="a-plus">(A+) まず百貨店の高さを出してから学校を出す。</span><br>
+                        <span class="a-plus">(A+) テレビ塔は学校の何倍かをまとめる。</span><br>
+                        <span class="a-minus">(A-) 90mに3と2をそのままかける。</span>
+                    </td>
+                    <td>
+                        <span class="f-plus">(F+) 素晴らしい！段階を踏む考えや、全体をまとめて見る視点が出ています。</span><br>
+                        <span class="f-minus">(F-) テレビ塔は一番高いので、学校はそれより低くなるはずですよ。</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>F3:予想・見通し（3分）</td>
+                    <td><span class="q-sub">図を使うとどんなことが分かりやすくなりそうかな？</span></td>
+                    <td>
+                        <span class="a-plus">(A+) どの長さが基準かがひと目でわかる。</span><br>
+                        <span class="a-plus">(A+) 百貨店と学校の関係が整理できる。</span><br>
+                        <span class="a-plus">(A+) 何倍になっているかが視覚的にわかる。</span><br>
+                        <span class="a-minus">(A-) 計算の答えが自動的に出る。</span>
+                    </td>
+                    <td>
+                        <span class="f-plus">(F+) その通り！関係を整理して立式しやすくするのが図の強みですね。</span><br>
+                        <span class="f-minus">(F-) 図は計算自体をするのではなく、立式の手助けをしてくれるんだよ。</span>
+                    </td>
+                </tr>
+
+                <!-- 展開（P2） -->
+                <tr>
+                    <td rowspan="7">展開（P2）</td>
+                    <td>F4:めあての提示（2分）</td>
+                    <td><span class="q-normal">【図を使って学校の高さのもとめ方を考えよう】どう表す？</span></td>
+                    <td>
+                        <span class="a-plus">(A+) 関係図や線分図を描いて考える。</span><br>
+                        <span class="a-plus">(A+) 3つの建築物の高さを比べる図にする。</span><br>
+                        <span class="a-plus">(A+) 順に解く図とまとめる図を書く。</span><br>
+                        <span class="a-minus">(A-) テレビ塔の絵だけを描く。</span>
+                    </td>
+                    <td>
+                        <span class="f-plus">(F+) 今日のめあてにぴったりな意欲的なアプローチですね！</span><br>
+                        <span class="f-minus">(F-) 絵ではなく、数量のつながりを示す関係図や線分図にしてみよう。</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>F5:自分で考え取り組む（5分）</td>
+                    <td><span class="q-sub">百貨店を出さずに直接学校の高さが出せるかな？</span></td>
+                    <td>
+                        <span class="a-plus">(A+) 3倍の2倍だからあわせて6倍と考える。</span><br>
+                        <span class="a-plus">(A+) 3×2＝6でテレビ塔は学校の6倍！</span><br>
+                        <span class="a-plus">(A+) 90÷(3×2)で一気に計算する。</span><br>
+                        <span class="a-minus">(A-) 3＋2＝5倍にする。</span>
+                    </td>
+                    <td>
+                        <span class="f-plus">(F+) すごい！「3倍の2倍」がかけ算で6倍になることに気づけましたね！</span><br>
+                        <span class="f-minus">(F-) 「3倍の2倍」だから、足し算ではなくかけ算で「6倍」になるよ。</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>F6:全体交流（5分）</td>
+                    <td><span class="q-main">順に解く方法とまとめて解く方法の違いは何だろう？</span></td>
+                    <td>
+                        <span class="a-plus">(A+) 順にやるのは90÷3＝30、30÷2＝15。</span><br>
+                        <span class="a-plus">(A+) まとめるのは3×2＝6、90÷6＝15。</span><br>
+                        <span class="a-plus">(A+) 式が1つにまとまるか2つになるかの違い。</span><br>
+                        <span class="a-minus">(A-) 答えが全然違う数値になる。</span>
+                    </td>
+                    <td>
+                        <span class="f-plus">(F+) 鋭い分析！やり方は違ってもどちらも正しく15mになりますね。</span><br>
+                        <span class="f-minus">(F-) 式の順序が違っても、どちらも答えは15mで同じになるはずだよ。</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>F7:教師の説明（3分）</td>
+                    <td><span class="q-normal">3倍の2倍が6倍になる関係図の書き方を確認しよう。</span></td>
+                    <td>
+                        <span class="a-plus">(A+) 矢印を伸ばして×6とまとめられる。</span><br>
+                        <span class="a-plus">(A+) 学校をもとにするとテレビ塔は6倍。</span><br>
+                        <span class="a-plus">(A+) 関係図の矢印がつながっている。</span><br>
+                        <span class="a-minus">(A-) 図のどこにも数字を書かない。</span>
+                    </td>
+                    <td>
+                        <span class="f-plus">(F+) 図のつながりがバッチリ理解できています！</span><br>
+                        <span class="f-minus">(F-) 図には「3倍」「2倍」といった割合の数字もしっかり書き込もう。</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>F8:主問題の解決（1分）</td>
+                    <td><span class="q-normal">学校の高さは何ｍになりましたか？</span></td>
+                    <td>
+                        <span class="a-plus">(A+) 15mです。</span><br>
+                        <span class="a-plus">(A+) 90÷3÷2＝15で15mです。</span><br>
+                        <span class="a-plus">(A+) 90÷6＝15で15mです。</span><br>
+                        <span class="a-minus">(A-) 540mです。</span>
+                    </td>
+                    <td>
+                        <span class="f-plus">(F+) 正解！どちらの解き方でも見事に15mが導き出せました。</span><br>
+                        <span class="f-minus">(F-) かけ算をして大きくしちゃったね。テレビ塔より低くなるから除法だよ。</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>F9:学習内容のまとめ（3分）</td>
+                    <td><span class="q-summary">【順に考えたり、何倍かをまとめて考えたりしてもとめることができる。】今日の学びを一言で？</span></td>
+                    <td>
+                        <span class="a-plus">(A+) 割合はまとめて何倍か考えても解ける！</span><br>
+                        <span class="a-plus">(A+) 順番に割ってもまとめて割っても同じ！</span><br>
+                        <span class="a-plus">(A+) 図を描くとまとめて考えるのが簡単！</span><br>
+                        <span class="a-minus">(A+) 式は必ず1通りしか作れない。</span>
+                    </td>
+                    <td>
+                        <span class="f-plus">(F+) 最高ですね！見通しによって複数の解決アプローチができる学びが得られました。</span><br>
+                        <span class="f-minus">(F-) 算数では、順に考える方法とまとめて考える方法の複数があるんだよ。</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>F10:適用問題（10分）</td>
+                    <td><span class="q-normal">適用問題1と2も2通りの考え方で解いてみよう！</span></td>
+                    <td>
+                        <span class="a-plus">(A+) 1は96÷(2×4)＝12で12こ。</span><br>
+                        <span class="a-plus">(A+) 2は1800÷(5×2)＝180で180g。</span><br>
+                        <span class="a-plus">(A+) どちらも順に割っても解けた！</span><br>
+                        <span class="a-minus">(A-) 96×2×4で解いた。</span>
+                    </td>
+                    <td>
+                        <span class="f-plus">(F+) 完璧です！まとめて何倍かを考えるテクニックを見事に使いこなしています！</span><br>
+                        <span class="f-minus">(F-) もとにする量を求めるから「何倍か」で割る計算になるよ。</span>
+                    </td>
+                </tr>
+
+                <!-- 終末（P3） -->
+                <tr>
+                    <td rowspan="2">終末（P3）</td>
+                    <td>F11:教師の説話（3分）</td>
+                    <td><span class="q-normal">世界一高いビル『ブルジュ・ハリバ』は学校の何倍かな？</span></td>
+                    <td>
+                        <span class="a-plus">(A+) 828mだから15mの約55倍！</span><br>
+                        <span class="a-plus">(A+) 学校が55個分も積み重なる！</span><br>
+                        <span class="a-plus">(A+) テレビ塔90mの9倍以上もある！</span><br>
+                        <span class="a-minus">(A-) 学校のほうが高い。</span>
+                    </td>
+                    <td>
+                        <span class="f-plus">(F+) 素晴らしい計算力！828mは学校（15m）のなんと約55倍！身近な学校の高さと比べると驚きの高さですね。</span><br>
+                        <span class="f-minus">(F-) 世界一のビルだから学校より圧倒的に高いんだよ。15mの何倍か計算してみてね！</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>F12:本時のふりかえり（7分）</td>
+                    <td><span class="q-normal">「まとめて考える」よさはどんなところにあった？</span></td>
+                    <td>
+                        <span class="a-plus">(A+) 式が1つになって計算が楽になる。</span><br>
+                        <span class="a-plus">(A+) 全体の関係がスッキリ捉えられる。</span><br>
+                        <span class="a-plus">(A+) 5×2＝10みたいにキリの良い数字が作れる。</span><br>
+                        <span class="a-minus">(A-) 難しくなるだけでメリットはない。</span>
+                    </td>
+                    <td>
+                        <span class="f-plus">(F+) 「キリの良い数字を作って計算を楽にする」という最高の工夫に気づけましたね！</span><br>
+                        <span class="f-minus">(F-) 計算の手間が減ったり見通しが立ちやすくなったりするメリットがあるんだよ。</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section">
+        <h1>③ 板書計画（黒板3分割）</h1>
+        <div class="blackboard-container">
+            <!-- 左エリア：問題・めあて・見通し -->
+            <div class="board-column">
+                <div class="board-image-placeholder">
+                    <!-- 主問題画像 -->
+                    <img src="算数4 割合 4 5 主問題.png" alt="主問題画像">
+                </div>
+                <div class="board-image-placeholder">
+                    <!-- 主問題図画像 -->
+                    <img src="算数4 割合 4 5 主問題図.png" alt="主問題図画像">
+                </div>
+                <div class="board-meate">
+                    <span class="board-meate-title">【めあて】</span><br>
+                    図を使って学校の高さのもとめ方を考えよう。
+                </div>
+                <div>
+                    【考え方の見通し】<br>
+                    ・順に高さを出していく。<br>
+                    ・テレビ塔が学校の<span class="board-text-yellow">何倍</span>になるかまとめてから考える。
+                </div>
+            </div>
+
+            <!-- 中央エリア：自力解決・全体交流 -->
+            <div class="board-column">
+                <div>
+                    【みんなの考え】<br><br>
+                    ① <span class="board-text-yellow">順に考える</span>考え方<br>
+                    　百貨店：90 ÷ 3 ＝ 30 (m)<br>
+                    　学　校：30 ÷ 2 ＝ 15 (m)<br>
+                    　式をまとめる：90 ÷ 3 ÷ 2 ＝ 15<br><br>
+                    ② <span class="board-text-yellow">まとめて考える</span>考え方<br>
+                    　テレビ塔は学校の 3 × 2 ＝ 6 (倍)<br>
+                    　学　校：90 ÷ 6 ＝ 15 (m)<br>
+                    　式をまとめる：90 ÷ (3 × 2) ＝ 15<br><br>
+                    答え　15 m
+                </div>
+            </div>
+
+            <!-- 右エリア：まとめ・適用問題 -->
+            <div class="board-column">
+                <div class="board-summary">
+                    【まとめ】<br>
+                    <span class="board-text-yellow">順に</span>考えたり、何倍かを<span class="board-text-yellow">まとめて</span>考えたりしてもとめることができる。
+                </div>
+                <div style="margin-top: 15px;">
+                    【適用問題】<br>
+                    1. かん(96こ) → びん(2倍) → ふくろ(4倍)<br>
+                    　 2 × 4 ＝ 8 (倍)<br>
+                    　 96 ÷ 8 ＝ 12　<u>答え 12こ</u><br><br>
+                    2. 理科じてん(1800g) → 童話(5倍) → ノート(2倍)<br>
+                    　 5 × 2 ＝ 10 (倍)<br>
+                    　 1800 ÷ 10 ＝ 180　<u>答え 180g</u>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h1>④ 授業で使う掲示物・提示資料リスト</h1>
+        <ul class="material-list">
+            <li>
+                <strong>主問題の提示画像：</strong>
+                <div class="material-item-img">
+                    <img src="算数4 割合 4 5 主問題.png" alt="主問題画像">
+                </div>
+                <div class="material-item-img">
+                    <img src="算数4 割合 4 5 主問題図.png" alt="主問題図画像">
+                </div>
+            </li>
+            <li>
+                <strong>適用問題の提示画像：</strong>
+                <p>※本時では教科書P134のテキスト（適用問題1：あめの数の問題 / 適用問題2：本やノートの重さの問題）を大型モニターに投影して提示する。</p>
+            </li>
+            <li>
+                <strong>教具・教材：</strong>
+                関係図提示用マグネットシート、色チョーク（赤・黄・青）、3つの建築物（テレビ塔・百貨店・学校）の拡大関係図テープ
+            </li>
+            <li>
+                <strong>参考URL・動画資料：</strong>
+                啓林館デジタル教科書 4年上「割合（3つの量の関係）」解説アニメーションコンテンツ
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>
